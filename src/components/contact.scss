@@ -1,0 +1,61 @@
+.contact-section {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #fff;
+    padding: 70px 40px 20px 40px;
+
+    h2 {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    form {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 55%;
+        margin-inline: auto;
+        button{
+            background-color: rgb(216, 206, 67);
+            border: none;
+            color: #fff;
+            padding: 8px;
+            &:hover{
+                color: #000;
+                cursor: pointer;
+            }
+        }
+
+        input, textarea{
+            
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+    .contact-info {
+        display: flex;
+        width: 60%;
+        margin-inline: auto;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .card-info {
+            .card-head {
+                display: flex;
+                gap: 10px;
+            }
+
+            .calendar{
+                color: rgba(255, 255, 255, 0.801);
+                background-color: rgb(216, 206, 67);
+                padding: 5px 6px;
+                border-radius: 5px;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

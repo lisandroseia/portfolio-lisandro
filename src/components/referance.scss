@@ -1,0 +1,36 @@
+.refer-section{
+    background-color: #000;
+    height: 70vh;
+    padding: 100px 50px ;
+
+    h2{
+        color: #fff;
+        font-size: 60px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+
+    .carr-card{
+        background-color: #fff;
+        padding: 40px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        margin-inline: auto;
+
+        h3{
+            font-size: 30px;
+            font-weight: bolder;
+            color: rgba(0, 0, 0, 0.781);
+        }
+
+        .desc{
+            color: rgb(216, 206, 67);
+        }
+
+        p{
+            font-weight: 600;
+        }
+    }
+}
