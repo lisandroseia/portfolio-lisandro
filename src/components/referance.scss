@@ -1,6 +1,6 @@
 .refer-section{
     background-color: #000;
-    height: 70vh;
+    min-height: 70vh;
     padding: 100px 50px ;
 
     h2{
@@ -33,4 +33,18 @@
             font-weight: 600;
         }
     }
+}
+
+@media (max-width: 480px) {
+
+    .refer-section{
+        h2{
+          font-size: 40px;
+        }
+        .carr-card{
+            width: 100%;
+        }
+
+    }
+
 }

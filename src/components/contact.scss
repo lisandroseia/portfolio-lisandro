@@ -59,3 +59,20 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+  .contact-info{
+    flex-direction: column;
+    .card-info{
+        width: 100%;
+        margin: 10px 0;
+
+        .calendar{
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+  }
+
+}
+

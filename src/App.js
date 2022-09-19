@@ -9,10 +9,10 @@ function App() {
   return (
     <section>
       <Header />
-      {/* <Skills />
+      <Skills />
       <Projects />
       <Referances />
-      <Contact /> */}
+      <Contact />
     </section>
   );
 }
