@@ -101,3 +101,56 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 55%, rgb(216, 206, 67)55%);
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+
+
+  @media (max-width: 480px) {
+  .header{
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 60%, rgb(216, 206, 67)60%);
+
+    h1{
+      font-size: 30px;
+    }
+    
+    .info{
+      flex-direction: column;
+
+      .img-name{
+        img{
+          margin-top: 20px;
+          width: 50%;
+          aspect-ratio: 1/1;
+          min-width: 200px;
+          border-radius: 50%;
+          margin-inline: auto;
+        }
+
+        .card{
+          background-color: black;
+          font-size: 10px;
+          bottom: 0;
+          right: 0;
+          padding: 5px 10px;
+        }
+      }
+
+      .info-card{
+        padding: 5px 10px;
+
+        .contact{
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-bottom: 30px;
+
+          .cv-download{
+            width: 90%;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+
+  }
+  }
